@@ -68,3 +68,45 @@ header{
     cursor: pointer;
     padding-top: 3px;
 }
+
+.main{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.info-block{
+    display: flex;
+    margin-top: 235px;
+    justify-content: space-between;
+}
+
+.info-block:nth-child(1){
+    margin-top: 72px;
+}
+
+.info-block__content h1, .info-block-last__h1{
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 76px;
+}
+
+.info-block__content p{
+    color: rgba(0, 0, 0, 0.46);
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 34px;
+}
+
+.info-block__content button{
+    width: 200px;
+    height: 44px;
+    border-radius: 10px;
+    background: #682C0E;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 34px;
+    border: none;
+    cursor: pointer;
+}
